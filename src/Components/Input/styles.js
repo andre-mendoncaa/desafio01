@@ -3,8 +3,7 @@ import styled from 'styled-components';
 export const InputContainer = styled.div`
     width: 100%;
     height: 75px;
-    background-color: #92f374;
-
+    background-color: #5295ec;
     display: flex;
     align-items: center;
     justify-content: flex-end;
@@ -14,15 +13,17 @@ export const InputContainer = styled.div`
 
     input{
         width: 100%;
-        height: 75px;
-        background-color: #92f374;
-        border: 0;
+        height: 100%;
+        background-color: #5295ec;
         display: flex;
         flex-direction: column;
         align-items: flex-end;
-        font-size: 24px;
+        font-size: 30px;
         font-family: 'Roboto';
-        padding: 0 10px;
-        color: #000000
+        padding: 0 15px 0;
+        color: #ffffff;
+        border: 2px solid #CCCCCC; 
+        border-radius: 4px; 
+        
     }
 `
